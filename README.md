@@ -28,6 +28,6 @@ Our teacher model is stored in model <model.pt>.
 You can run the following four files：
 
 1. LSTM-based student network <KD_ST_LSTM.py>
-2. Student network based on 1-dimensional convolution <KD_ST_1DCNN.py>
-3. LSTM-based transfer student network <Transfer_LSTM.py>
-4. The transfer student network based on 1-dimensional convolution <Transfer_1DCNN.py>
+2. LSTM-based transfer student network <Transfer_LSTM.py>
+3. 1DCNN-based student network <KD_ST_1DCNN.py>
+4. 1DCNN-based transfer student network <Transfer_1DCNN.py>
