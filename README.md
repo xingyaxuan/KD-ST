@@ -1,5 +1,6 @@
 # KD-ST
-Distillation Knowledge-Based Space-Time Data Prediction on Industrial IoT Edge Devices.
+
+
 This is a Pytorch implementation of KD-ST: Distillation Knowledge-Based Space-Time Data Prediction on Industrial IoT Edge Devices.
 
 Currently, IIoT tends to offer significant efficiency and productivity gains to industrial operations. 
