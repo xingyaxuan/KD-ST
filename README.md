@@ -15,7 +15,6 @@ achieved a good tradeoff between execution cost and model accuracy in model infe
 # The Code
 ## Requirements:
 * pytorch
-* scipy
 * numpy
 * matplotlib
 * pandas
@@ -25,7 +24,9 @@ achieved a good tradeoff between execution cost and model accuracy in model infe
 You can get the dataset at https://www.kaggle.com/javi2270784/gas-sensor-array-temperature-modulation.
 
 Our teacher model is stored in model <model.pt>.
+
 You can run the following four files：
+
 1. LSTM-based student network <KD_ST_LSTM.py>
 2. Student network based on 1-dimensional convolution <KD_ST_1DCNN.py>
 3. LSTM-based transfer student network <Transfer_LSTM.py>
