@@ -22,6 +22,7 @@ achieved a good tradeoff between execution cost and model accuracy in model infe
 
 ## Implement
 You can get the dataset at https://www.kaggle.com/javi2270784/gas-sensor-array-temperature-modulation.
+
 Our teacher model is stored in model <model.pt>.
 You can run the following four files：
 1. LSTM-based student network <KD_ST_LSTM.py>
