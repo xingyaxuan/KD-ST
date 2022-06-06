@@ -25,6 +25,7 @@ You can get the dataset at https://www.kaggle.com/javi2270784/gas-sensor-array-t
 
 
 Our teacher model is stored in model <model.pt>.
+
 Please design the teacher network according to your own needs.
 
 You can run the following four files：
