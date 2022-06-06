@@ -117,7 +117,7 @@ def train (epoch,data, X, Y, stu_net, teacher_model,loss1,loss2,batch_size):
         #'''
         #print(dist.max())
 
-        lr = 0.6*loss2(output, Y)+0.4*gan_backward(loss1, output, output1)
+        lr = 0.5*loss2(output, Y)+0.5*gan_backward(loss1, output, output1)
         lr.backward()
         total_loss += lr.item()
         n_samples += (output.size(0) * data.m)
